@@ -1,7 +1,7 @@
 object Hexadecimal {
 
     fun toDecimal(s: String): Int {
-        val characterArray :MutableList<Char> = s.toCharArray().toMutableList()
+        val characterArray :List<Char> = s.toCharArray().toList()
         var i = s.length - 1
         var result = 0.0
 
